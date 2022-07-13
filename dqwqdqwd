@@ -270,7 +270,6 @@ end
 end)
 start()
 end}
-
 LocalPlayer:Slider{
 	Name = "FOV slider",
 	Default = 70,
@@ -281,7 +280,7 @@ game:GetService'Workspace'.Camera.FieldOfView = fov
 end}
 LocalPlayer:Button{
 	Name = "Copy jobid",
-	Description = Copies your jobid,
+	Description = "Copies your jobid",
 	Callback = function() 
 	setclipboard(game.JobId)
 end}
