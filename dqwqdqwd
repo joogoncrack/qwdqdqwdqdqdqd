@@ -1,0 +1,342 @@
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/joogoncrack/qdqwdqwqwqwqwqwqwqwqwqwqwqwqwqwqwqwqwqwqwqwqw/main/qwdqdqw"))()
+local GUI = Mercury:Create{
+    Name = "Planet Control",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "https://Planet's.Alt.Control/madebyjoog.com"
+}
+local Home = GUI:Tab{
+	Name = "Home",
+	Icon = "rbxassetid://9264541932"
+}
+local Teleports = GUI:Tab{
+	Name = "Teleports",
+	Icon = "rbxassetid://9264768136"
+}
+local Cmds = GUI:Tab{
+	Name = "Cmds",
+	Icon = "rbxassetid://9264822672"
+}
+local LocalPlayer = GUI:Tab{
+	Name = "LocalPlayer",
+	Icon = "rbxassetid://9288309850"
+}
+local Selling = GUI:Tab{
+	Name = "Selling",
+	Icon = "rbxassetid://9264760511"
+}
+GUI:Notification{
+	Title = "Toggle Keybind is",
+	Text = "V, you can change it in settings.",
+	Duration = 5,
+	Callback = function() end
+}
+GUI:Notification{
+	Title = "You should use your own script and accounts to crash",
+	Text = "Because sometimes !crash doesnt work.",
+	Duration = 5,
+	Callback = function() end
+}
+-- Home
+local label = Home:Label{
+  Text = "What's new?",
+  Description =  "Nothing new, just released it."
+}
+
+label:SetText("What's new?")
+label:SetDescription("Nothing new, just released it.")
+
+Home:ColorPicker{
+	Style = Mercury.ColorPickerStyles.Legacy,
+	Callback = function(color) end
+}
+
+-- Teleports
+Teleports:Button{
+	Name = "Bank",
+	Description = "Teleports to Bank.",
+	Callback = function() 
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-375.072845, 21.2499924, -345.184631, -0.999936163, 6.40187423e-08, 0.0113000637, 6.51440857e-08, 1, 9.92188802e-08, -0.0113000637, 9.99486787e-08, -0.999936163)
+end}
+Teleports:Button{
+	Name = "Train",
+	Description = "Teleports to Train.",
+	Callback = function() 
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(657.73999, 47.9999886, -72.5500031, 1, -9.2562729e-08, -1.61922935e-14, 9.2562729e-08, 1, 5.84916648e-08, 1.07781461e-14, -5.84916648e-08, 1)
+end}
+Teleports:Button{
+	Name = "Admin base",
+	Description = "Teleports to Admin base.",
+	Callback = function() 
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-870.238831, -32.6492119, -652.788391, -0.999752343, -7.81204506e-08, 0.0222536605, -7.70993438e-08, 1, 4.67426737e-08, -0.0222536605, 4.5015355e-08, -0.999752343)
+end}
+Teleports:Button{
+	Name = "Club",
+	Description = "Teleports to Club",
+	Callback = function() 
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-264.434479, 0.0355005264, -430.854736, -0.999828756, 9.58909574e-09, -0.0185054261, 9.92017934e-09, 1, -1.77993904e-08, 0.0185054261, -1.79799198e-08, -0.999828756)
+end}
+Teleports:Button{
+	Name = "Basketball",
+	Description = "Teleports to Basketball.",
+	Callback = function() 
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-932.030029, 22.0998154, -482.540009, 1, 2.96161762e-08, -1.76067819e-13, -2.96161762e-08, 1, 2.88968582e-09, 1.7615339e-13, -2.88968582e-09, 1)
+end}
+Teleports:Button{
+	Name = "Vault",
+	Description = "Teleports to Vault.",
+	Callback = function() 
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-495.485901, 23.1428547, -284.661713, -0.0313318223, -4.10440322e-08, 0.999509037, 2.18453966e-08, 1, 4.17489829e-08, -0.999509037, 2.31427428e-08, -0.0313318223)
+end}
+Teleports:Button{
+	Name = "Safe zone",
+	Description = "Teleports to Safe zone.",
+	Callback = function() 
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(207.440002, 38.25, 200014.953, 1, -2.25865655e-08, 2.49730358e-13, 2.25865655e-08, 1, -1.2588564e-08, -2.49446026e-13, 1.2588564e-08, 1)
+end}
+Teleports:Button{
+	Name = "Safe zone1",
+	Description = "Teleports to Safe zone1.",
+	Callback = function() 
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3.57999992, 11.7499971, 200.029999, 1, -4.40714523e-08, 1.52852381e-13, 4.40714523e-08, 1, -2.32153603e-08, -1.51829246e-13, 2.32153603e-08, 1)
+end}
+Teleports:Button{
+	Name = "Safe zone2",
+	Description = "Teleports to Safe zone2.",
+	Callback = function() 
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-700.840027, 44.3507881, -900.030029, 1, 2.29828743e-08, 1.9726801e-14, -2.29828743e-08, 1, 1.21069892e-08, -1.94485473e-14, -1.21069892e-08, 1)
+end}
+
+-- Cmds
+Cmds:Button{
+	Name = "Print all commands",
+	Description = "As the title said.",
+	Callback = function()
+	print("ur prefix drop, ur prefix stopdrop, ur prefix cdrop, ur prefix aura (user), ur prefix stopaura, ur prefix loopdel, ur prefix ad on, ur prefix ad off, ur prefix wallet on, ur prefix wallet off ur prefix !airlock, ur prefix stopairlock, ur prefix crash swag (user), ur prefix crash encrypt (user), ur prefix setup bank, ur prefix setup admin, ur prefix setup vault, ur prefix setup train, ur prefix setup club, ur prefix circle host, ur prefix bring (user) (bank,admin,vault,train,club,host), ur prefix bring host (bank,admin,vault,train,club), ur prefix shuffle, ur prefix monkey, ur prefix floss, ur prefix dolphin, ur prefix stopdance. (NOTE ALL BRINGS ARE KINDA BROKEN LOOKING INTO THAT POSSIBLY HAVE TO DELETED COMMAND)")
+end}
+
+-- LocalPlayer
+LocalPlayer:Button{
+	Name = "Sonic (Z)",
+	Description = "Makes your speed faster than sonic with the keybind (Z)",
+	Callback = function()
+game:GetService("Players").LocalPlayer:GetMouse().KeyDown:Connect(function(Key)
+  if Key ~= "z" then return end
+  if Key == "z" then
+  local Speed = Instance.new("IntValue", game:GetService("Players").LocalPlayer.Character.BodyEffects.Movement)
+  Speed.Name = "SuperSpeed"
+  _G.SpinFake = true
+  while _G.SpinFake == true do
+  game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame * CFrame.Angles(0, -.2, 0)
+  wait()
+  game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame * CFrame.Angles(0, .4, 0)
+  wait()
+  end
+  end
+  end)
+  game:GetService("Players").LocalPlayer:GetMouse().KeyUp:Connect(function(KeyUp)
+  if KeyUp ~= "z" then return end
+  if KeyUp == "z" then
+  game:GetService("Players").LocalPlayer.Character.BodyEffects.Movement.SuperSpeed:Destroy()
+  _G.SpinFake = false
+  end
+  end)
+end}
+LocalPlayer:Textbox{
+	Name = "Execute any script of ur liking.",
+	Callback = function(text) 
+	loadstring(game:HttpGet(text))()
+end}
+LocalPlayer:Textbox{
+	Name = "TP to any player",
+	Callback = function(player) 
+	local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local p2 = (player)
+local pos = p1.CFrame
+
+p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
+end}
+LocalPlayer:Button{
+    Name = "Fly (X)",
+	Description = "Makes you fly with the keybind (X)",
+	Callback = function()
+	    local plr = game.Players.LocalPlayer
+local mouse = plr:GetMouse()
+
+localplayer = plr
+
+if workspace:FindFirstChild("Core") then
+workspace.Core:Destroy()
+end
+
+local Core = Instance.new("Part")
+Core.Name = "Core"
+Core.Size = Vector3.new(0.05, 0.05, 0.05)
+
+spawn(function()
+Core.Parent = workspace
+local Weld = Instance.new("Weld", Core)
+Weld.Part0 = Core
+Weld.Part1 = localplayer.Character.LowerTorso
+Weld.C0 = CFrame.new(0, 0, 0)
+end)
+
+workspace:WaitForChild("Core")
+
+local torso = workspace.Core
+flying = true
+local speed=10
+local keys={a=false,d=false,w=false,s=false}
+local e1
+local e2
+local function start()
+local pos = Instance.new("BodyPosition",torso)
+local gyro = Instance.new("BodyGyro",torso)
+pos.Name="EPIXPOS"
+pos.maxForce = Vector3.new(math.huge, math.huge, math.huge)
+pos.position = torso.Position
+gyro.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+gyro.cframe = torso.CFrame
+repeat
+wait()
+localplayer.Character.Humanoid.PlatformStand=true
+local new=gyro.cframe - gyro.cframe.p + pos.position
+if not keys.w and not keys.s and not keys.a and not keys.d then
+speed=5
+end
+if keys.w then
+new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+speed=speed+0
+end
+if keys.s then
+new = new - workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+speed=speed+0
+end
+if keys.d then
+new = new * CFrame.new(speed,0,0)
+speed=speed+0
+end
+if keys.a then
+new = new * CFrame.new(-speed,0,0)
+speed=speed+0
+end
+if speed>10 then
+speed=5
+end
+pos.position=new.p
+if keys.w then
+gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(-math.rad(speed*0),0,0)
+elseif keys.s then
+gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(math.rad(speed*0),0,0)
+else
+gyro.cframe = workspace.CurrentCamera.CoordinateFrame
+end
+until flying == false
+if gyro then gyro:Destroy() end
+if pos then pos:Destroy() end
+flying=false
+localplayer.Character.Humanoid.PlatformStand=false
+speed=10
+end
+e1=mouse.KeyDown:connect(function(key)
+if not torso or not torso.Parent then flying=false e1:disconnect() e2:disconnect() return end
+if key=="w" then
+keys.w=true
+elseif key=="s" then
+keys.s=true
+elseif key=="a" then
+keys.a=true
+elseif key=="d" then
+keys.d=true
+elseif key=="x" then
+if flying==true then
+flying=false
+else
+flying=true
+start()
+end
+end
+end)
+e2=mouse.KeyUp:connect(function(key)
+if key=="w" then
+keys.w=false
+elseif key=="s" then
+keys.s=false
+elseif key=="a" then
+keys.a=false
+elseif key=="d" then
+keys.d=false
+end
+end)
+start()
+end}
+
+LocalPlayer:Slider{
+	Name = "FOV slider",
+	Default = 70,
+	Min = 70,
+	Max = 120,
+	Callback = function(fov) 
+game:GetService'Workspace'.Camera.FieldOfView = fov
+end}
+LocalPlayer:Button{
+	Name = "Copy jobid",
+	Description = Copies your jobid,
+	Callback = function() 
+	setclipboard(game.JobId)
+end}
+-- Selling
+local label = Selling:Label{
+  Text = "Dropping",
+  Description =  "Dropping stuff"
+}
+Selling:Toggle{
+	Name = "Autodrop",
+	StartingState = false,
+	Description = "Autodrop's 10k until you stop it",
+	Callback = function(state) 
+	if state then
+local args = {
+    [1] = "DropMoney",
+    [2] = "10000 "
+}
+
+game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+wait(15)
+     else
+   print("Stopped dropping.")
+end
+end}
+Selling:Textbox{
+	Name = "Drop your amount of cash put in (under 10k)",
+	Callback = function(cash) 
+	local args = {
+    [1] = "DropMoney",
+    [2] = (cash)
+}
+
+game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+wait()   
+end}
+local label = Selling:Label{
+  Text = "Crashing",
+  Description =  "Crashing stuff"
+}
+Selling:Button{
+    Name = "Faster Swagmode crash",
+	Description = "Executes a faster version of swagmode crash.",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-TB-Crash/main/Swagmode%20crash%20modified%20(better%20FPS)%20crash"))()
+end}
+Selling:Button{
+    Name = "Real Swagmode crash",
+	Description = "Executes Swagmode crash.",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+end}
+Selling:Button{
+    Name = "Encrypt crash",
+	Description = "Executes Encrypt's crash.",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/remorseW/encryptW/main/CustomEncryptCrasher.lua"))()
+end}
