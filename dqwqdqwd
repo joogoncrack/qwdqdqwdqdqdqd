@@ -1,9 +1,9 @@
 local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/joogoncrack/qdqwdqwqwqwqwqwqwqwqwqwqwqwqwqwqwqwqwqwqwqwqw/main/qwdqdqw"))()
 local GUI = Mercury:Create{
-    Name = "Planet Control",
+    Name = "Gui",
     Size = UDim2.fromOffset(600, 400),
     Theme = Mercury.Themes.Dark,
-    Link = "https://Planet's.Alt.Control/madebyjoog.com"
+    Link = ""
 }
 local Home = GUI:Tab{
 	Name = "Home",
